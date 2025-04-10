@@ -25,6 +25,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/purple-green.css",
               "src/styles.css"
             ],
             "scripts": [],
@@ -65,7 +66,8 @@
               "buildTarget": "cronJobMonitor:build:production"
             },
             "development": {
-              "buildTarget": "cronJobMonitor:build:development"
+              "buildTarget": "cronJobMonitor:build:development",
+              "proxyConfig": "proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
@@ -89,6 +91,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/purple-green.css",
               "src/styles.css"
             ],
             "scripts": []

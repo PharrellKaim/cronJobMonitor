@@ -1,0 +1,61 @@
+.main {
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: white;
+}
+
+.top-bar .logo img {
+  width: 40px;
+  height: auto;
+}
+
+.top-bar .title h1 {
+  margin: 0;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.top-bar .menu-icon mat-icon {
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+.top-bar .menu-icon mat-icon:hover {
+  color: #18ac8e;
+}
+
+.drawer-container {
+  display: none;
+}
+.jobList {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 20px;
+  padding: 20px;
+}
+
+app-job-list {
+  flex: 0 0 100%;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .top-bar .title {
+    display: none;
+  }
+  app-job-list {
+    flex: 0 0 100%;
+  }
+}
