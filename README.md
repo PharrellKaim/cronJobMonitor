@@ -1,5 +1,4 @@
 ## Overview
-
 This project is a lightweight **Cron Job Dashboard** built with **Angular** and **Angular Material**. It provides a clear and user-friendly UI to monitor, trigger, and inspect background jobs running on a server.
 
 ## 🔧 Features
@@ -22,3 +21,4 @@ This project is a lightweight **Cron Job Dashboard** built with **Angular** and 
 
 A CORS issue occurred when trying to start a job via a PATCH request from the Angular frontend to the backend, which was blocked by the browser. This was resolved by configuring a proxy with a path rewrite in Angular’s proxy.conf.json, allowing the frontend to bypass CORS restrictions during development.
 
+![Job App UI](cronJobMonitorOverview.png)
