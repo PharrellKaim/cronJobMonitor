@@ -27,7 +27,6 @@ tr:hover {
   background-color: #FFFFFF19;
 }
 
-
 mat-card {
   background-color: #000000;
   padding: 20px;
@@ -102,5 +101,24 @@ h2 {
   border-radius: 6px;
   font-family: monospace;
   white-space: pre-wrap;
-  color: black;
 }
+
+.copyLogs-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.copyLogs {
+  color: #000000;
+  font-size: 24px;
+  transition: color 0.2s, transform 0.2s;
+  background: none;
+  border: none  ;
+}
+
+.copyLogs:hover mat-icon {
+  color: #18ac8e;
+  transform: scale(1.1);
+}
+

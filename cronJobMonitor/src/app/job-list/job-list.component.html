@@ -47,6 +47,9 @@
     <div id="logs">
       <pre>{{ activeLogs[selectedJob?.key] }}</pre>
     </div>
+    <div class="copyLogs-container">
+      <button class="copyLogs"  mat-stroked-button color="accent" (click)="copyLogs()"><mat-icon>content_paste</mat-icon></button>
+    </div>
   </div>
 </div>
 

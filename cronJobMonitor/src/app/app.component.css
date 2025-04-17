@@ -6,11 +6,12 @@
 
 .top-bar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 10px 20px;
   background-color: #000000;
   color: white;
+  gap: 20px;
 }
 
 .top-bar .logo img {
@@ -22,15 +23,6 @@
   margin: 0;
   font-size: 24px;
   letter-spacing: 1px;
-}
-
-.top-bar .menu-icon mat-icon {
-  color: white;
-  font-size: 30px;
-  cursor: pointer;
-}
-.top-bar .menu-icon mat-icon:hover {
-  color: #18ac8e;
 }
 
 .drawer-container {

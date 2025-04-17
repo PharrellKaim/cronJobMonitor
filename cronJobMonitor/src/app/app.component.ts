@@ -13,13 +13,6 @@ import {NgOptimizedImage} from "@angular/common";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Testqqqq';
+  @ViewChild('drawer') drawer: MatDrawer | undefined;
 
-  @ViewChild('drawer') drawer: MatDrawer | undefined;  // Referenziere das mat-drawer Element
-
-  toggleMenu() {
-    if (this.drawer) {
-      this.drawer.toggle();
-    }
-  }
 }
