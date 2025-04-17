@@ -21,4 +21,8 @@ This project is a lightweight **Cron Job Dashboard** built with **Angular** and 
 
 A CORS issue occurred when trying to start a job via a PATCH request from the Angular frontend to the backend, which was blocked by the browser. This was resolved by configuring a proxy with a path rewrite in Angular’s proxy.conf.json, allowing the frontend to bypass CORS restrictions during development.
 
+Without professional guidance, it was challenging to structure components in a clean and modular way. I’m very interested in learning how to design Angular apps more efficiently and modularly, especially when it comes to component separation, reusability, and scalability in larger applications.
+
+Formatting log output dynamically in the frontend turned out to be more difficult than expected. Although the logic using regular expressions and innerHTML worked technically, the formatting was either inconsistent or not visible due to issues with DOM rendering, Angular's sanitization, or CSS conflicts. In the end, I opted for a simple, clean log view with a copy-to-clipboard button instead of complex inline formatting.
+
 ![Job App UI](cronJobMonitorOverview.png)
